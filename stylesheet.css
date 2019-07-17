@@ -1,0 +1,239 @@
+hr{width:30px;  border:2px solid lightblue;}
+h1{color:lightblue}
+h2{color:lightblue}
+h3{color:lightblue}
+h4{color:lightblue}
+h5{color:lightblue}
+h6{color:lightblue}
+/***********************NAV BAR*******************************/
+ul li{display: inline;}
+nav{word-spacing: 50px; color: white; background-color:grey; height:100px; width:100%; padding-top:30px;}
+.thenavbar{text-align: center;}
+/***********************NAV BAR*******************************/
+
+
+/*************************HEADER*****************************/
+.heading-content{background-image: url(images/home/bigbuildings.jpeg);
+height: 600px; width: 100%;  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+.main_content{padding-top: 130px; padding-left: 100px; color:white;}
+
+.heading_button{border:solid white 3px; background:none; color:white;}
+
+#heading_button_id:hover{animation:linear buttonchanger 0.5s forwards;}
+@keyframes buttonchanger{
+	0%{background-color:none; color:white; border:solid white 3px;}
+	100%{background-color:black; color:lightblue; border:solid lightblue 3px;}
+}
+
+h1{font-size:90px;}
+
+#maintitle{font-size: 70px;}
+#changeText{height: 50px; font-size: 100px;}
+/*************************HEADER*****************************/
+
+
+
+/************************ABOUT BIXPRO******************************/
+.abouttitle{text-align:center; margin-top: 50px;}
+
+.aboutcontent{text-align:center; color:grey;
+margin-bottom:50px;}
+
+#firstredcircles{border: 2px solid lightblue; border-radius:100px; width:150px; height:150px; 
+	margin-bottom:20px; text-align: center; padding-top:50px; margin-left:50px; margin-right:50px;} 
+
+
+#secondcircles{border: 2px solid lightblue; border-radius:100px; width:150px; height:150px; 
+  margin-bottom:20px; text-align: center; padding-top:50px; margin-left:50px; margin-right:50px;}
+
+#thirdcircles{border: 2px solid lightblue; border-radius:100px; width:150px; height:150px; 
+  margin-bottom:20px; text-align: center; padding-top:50px; margin-left:50px; margin-right:50px;}
+
+
+.lens{   display: inline-block;
+  animation:linear lensboy forwards 1.5s infinite ;
+  animation-delay:1s; 
+opacity: 0;}
+
+@keyframes lensboy{
+from{opacity: 1;}
+to {opacity: 0;}
+
+}
+.thecamiboy{
+    display: inline-block;
+  animation:linear thatone forwards 2s infinite ;
+  animation-delay:1s;
+  padding-left:30px;
+}
+  @keyframes thatone  {
+0% {transform:rotate(0deg);}
+20%{transform:rotate(10deg);}
+40%{transform:rotate(0deg);}
+60%{transform:rotate(-10deg);}
+80%{transform:rotate(0deg);}
+100%{transform:rotate(10deg);}
+}
+/***********set these up to play when button hover***********/
+
+
+
+
+
+.aboutcircletitle{font-size:20px;  text-align: center; }
+.abouttext{text-align: center; color:grey;}
+.aboutbuttons{ border: 1px solid lightblue; height:40px; width:150px; text-align:center;  margin-left:50px;
+ margin-right:50px; margin-bottom:50px;}
+
+#aboutbuttons_changers:hover{animation:linear 0.5s aboutbuttons forwards}
+
+@keyframes aboutbuttons{
+	0%{background-color:; color:white; border: 1px solid red;}
+	100%{background-color:black; color:lightblue; border: 1px solid lightblue;}
+}
+/************************ABOUT BIXPRO******************************/
+
+
+/****************************THE DARK QUAD**************************/
+h3{padding-top:50px;}
+#quadtoprow{margin-top:50px; margin-bottom:50px; margin-left:50px; margin-right:50px;}
+
+
+.darkquad{text-align: center; margin-top:50px height:600px; color: white;}
+
+ #darkquad_background{
+ background-image: url("images/home/small_city.jpeg");  
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+
+
+#quadboxes{height:300px;}
+
+/****************************THE DARK QUAD**************************/
+
+
+
+
+
+
+/*****************************THE PICTURE GRID*************************/
+
+h4{color:white; background-color:lightblue;}
+.picturegrid{text-align: center;}
+
+#top_picturegrid{margin-bottom: 50px;}
+.imageone{background-image: url(c1.jpg);height:250px; width:300px; background:contain; background-repeat: no-repeat; 
+	background-size: cover; margin-left: 25px;}
+.imagetwo{background-image:url(c2.jpg); height:250px; width:300px; background:contain; background-repeat: no-repeat; 
+	background-size: cover; margin-left: 25px;}
+.imagethree{background-image:url(c3.jpg);height:250px; width:300px; background:contain; background-repeat: no-repeat; 
+	background-size: cover; margin-left: 25px;}
+
+#bottom_picturegrid{margin-bottom: 50px;}
+.imagefour{background-image:url(handshake.jpg);height:250px; width:300px; background:contain; background-repeat: no-repeat; 
+	background-size: cover; margin-left: 25px;}
+.imagefive{background-image:url(oldbusiness.jpg);height:250px; width:300px; background:contain; background-repeat: no-repeat; 
+	background-size: cover; margin-left: 25px;}
+.imagesix{background-image:url(showingpaper.jpg);height:250px; width:300px; background:contain; background-repeat: no-repeat; 
+	background-size: cover; margin-left: 25px;}
+/*****************************THE PICTURE GRID*************************/
+
+
+/***************************BANNER SEGMENTED***************************/
+h5{text-align: center; color: white; padding-top: 100px;}
+.theseperator{
+	 background-image: url("bigcity.jpeg");  
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background:contain;
+  width: 100%;
+  height: 350px;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+text-align: center;
+}
+.seperator_button{border:solid white 3px; background:none; color:white; margin-top:50px;}
+/***************************BANNER SEGMENTED***************************/
+
+
+
+/******************************************MOVING BARS************/
+.movingbar_title{margin-bottom: 20px; font-size: 35px;}
+h5{font-size:45px;}
+.happyclients{font-size:30px; color:lightblue; position: fixed;}
+.theclientspart{}
+.clientpart_titlesection{text-align: center;}
+.thebar1{height:25px; width:0px; opacity:0; margin-bottom:40px; background-color:orange; text-align:center;}
+.thebar2{height:25px; width:0px; opacity:0; margin-bottom:40px; background-color:lightblue; text-align:center;}
+.thebar3{height:25px; width:0px; opacity:0; margin-bottom:40px; background-color:green; text-align:center;}
+.thebar4{height:25px; width:0px; opacity:0; margin-bottom:40px; background-color:yellow; text-align:center;}
+.thebar5{height:25px; width:0px; opacity:0; margin-bottom:40px; background-color:lightpink; text-align:center;}
+
+/******************************************MOVING BARS************/
+
+
+/**************************TESTIMONIALS ****************************/
+.clientpart_titlesection{margin-bottom:50px;}
+.theclientspart{margin-bottom: 30px;}
+/**************************TESTIMONIALS ****************************/
+
+
+/*****************************PACKAGE DEALS*************************/
+.package_movers_title{text-align:center; margin-top:100px; font-size: 35px;}
+.card_section{width:100%; height:630px; opacity:0.8; position: absolute; z-index:2; margin-bottom: 200px; margin-top:25px;}
+.section_pinner{}
+
+.card{text-align: center; border-radius:50px; margin-top:50px;}
+.card-title{}
+.card-text{}
+
+#card_one{background-image: Linear-gradient(360deg, lightskyblue, lightblue, lightcyan, white); border:none;
+position: absolute; right:-230px; z-index:0; width:400px; opacity:0.3;} 
+
+#card_two{background-image: Linear-gradient(360deg, lightskyblue, lightblue, lightcyan, white); border:none;
+position: absolute; z-index:1; width:400px; opacity:0.9;}
+
+#card_three{background-image: Linear-gradient(360deg, lightskyblue, lightblue, lightcyan, white); border:none;
+position: absolute; left:-230px; z-index:0; width:400px; opacity:0.3;}
+
+.theclickbar{ background-color:white; position: absolute; z-index:6; width: 100%;  height:100px; opacity:0.9;
+  margin-top: 250px; text-align:center;}
+
+.bannerbutton{margin-top:35px; border:solid 5px lightblue; color:black;}
+#buttonbanner_ani:hover{animation: linear 1s bannerbuttunchanger forwards }
+
+@keyframes bannerbuttunchanger{
+  0%{background-color:transparent; color:black; border:solid 5px lightblue;;}
+  100%{background-color:black; color:lightblue; border:solid 5px lightblue;;}
+}
+
+#MIDDLE{padding-left:100px;}
+/*****************************PACKAGE DEALS*************************/
+
+
+/*********************************LOGO*********************/
+.logotitle{padding-top: 50px;}
+.logostrip{height: 300px; text-align: center; margin-top: 600px; margin-bottom: 50px;}
+#thelogos{padding-top:125px; padding-left:75px;}
+/*********************************LOGO*********************/
+
+
+
+/********************************FOOTER**********************/
+.footertitles{margin-bottom:50px; font-size: 25px;}
+footer{background-color:grey;
+padding-top:50px; height:350px; text-align:center;}
+
+.farright{}
+.farleft{}
+.themiddle{}
+/********************************FOOTER**********************/
